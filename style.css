@@ -13,6 +13,10 @@ p{
   font-weight: 300;
   color: #111;
 }
+body
+{
+  min-height: 1000px;
+}
 .banner
 {
   position: relative;
@@ -64,6 +68,12 @@ justify-content: space-between;
 align-items: center;
 transition: 0.5s;
 }
+header .sticky
+{
+ background: #fff;
+ padding: 10px 100px; 
+ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
 header .logo /*FOOD*/
 {
   color: #fff;
@@ -84,4 +94,10 @@ header .navigation li /*внутри навигационного меню*/
 {
   list-style: none;
   margin-left: 30px; /*отступы между элементами*/
+}
+header .navigation li a
+{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
 }

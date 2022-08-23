@@ -51,3 +51,37 @@ color: #fff;
 {
   letter-spacing: 6px;
 }
+header
+{
+position: fixed;
+top: 0;
+left:0;
+width:100%;
+padding: 40px 100px;
+z-index: 10000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.5s;
+}
+header .logo /*FOOD*/
+{
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+header .logo span /*Точка после FOOD*/
+{
+color: #ff0157;
+}
+header .navigation /*навигационное меню*/
+{
+  position: relative;
+  display: flex;
+}
+header .navigation li /*внутри навигационного меню*/
+{
+  list-style: none;
+  margin-left: 30px; /*отступы между элементами*/
+}

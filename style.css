@@ -72,7 +72,7 @@ justify-content: space-between;
 align-items: center;
 transition: 0.5s;
 }
-header.sticky
+header.sticky /*здесь при скроле вниз хедер становится белым, как бы шторка выезжает сверху*/
 {
  background: #fff;
  padding: 10px 100px; 
@@ -84,6 +84,10 @@ header .logo /*FOOD*/
   font-weight: 700;
   font-size: 2em;
   text-decoration: none;
+}
+header.sticky .logo 
+{
+  color: #111;
 }
 header .logo span /*Точка после FOOD*/
 {
@@ -104,4 +108,12 @@ header .navigation li a
   text-decoration: none;
   color: #fff;
   font-weight: 300;
+}
+header.sticky .navigation li a /*здесь добавлем цвет в нав.меню при скроле*/
+{
+  color: #111;
+}
+header.sticky .navigation li a:hover /*при скроле в нав.меню компоненты при наведении меняют цвет*/
+{
+  color: #ff0157;
 }

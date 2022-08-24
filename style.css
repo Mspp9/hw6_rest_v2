@@ -162,3 +162,26 @@ section /*отступ от верхней картинки до About Us*/
   height: 100%;
   object-fit: cover;
 }
+.title /*Our Menu сделал по центру*/
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu .content /*расположение картинок здесь они по 2 идут*/
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.menu .content .box
+{
+  width: 340px;
+  margin: 20px;
+  border: 15px solid #fff;
+  box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}

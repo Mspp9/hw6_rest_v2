@@ -237,3 +237,12 @@ section /*отступ от верхней картинки до About Us*/
       height: 100%;
       object-fit: cover
 }
+.expert .content .box .text
+{
+  padding: 15px 0 5px;
+}
+.expert .content .box .text h3
+{
+  font-weight: 400;
+  color:#111;
+}

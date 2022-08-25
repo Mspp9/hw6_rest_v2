@@ -185,3 +185,18 @@ section /*отступ от верхней картинки до About Us*/
   border: 15px solid #fff;
   box-shadow: 0 5px 35px rgba(0,0,0,0.08);
 }
+.menu .content .box .imgBx
+{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.menu .content .box .imgBx img /*фотографии становятся красиво в ряд*/
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

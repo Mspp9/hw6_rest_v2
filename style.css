@@ -200,3 +200,12 @@ section /*отступ от верхней картинки до About Us*/
   height: 100%;
   object-fit: cover;
 }
+.menu .content .box .text
+{
+  padding: 15px 0 5px; /*расстояние между карточками фотографий*/
+}
+.menu .content .box .text h3 /*размер и цвет шрифта к фотографиям в меню*/
+{
+  font-weight: 400;
+  color: #111;
+}

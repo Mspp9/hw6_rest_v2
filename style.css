@@ -310,4 +310,9 @@ section /*отступ от верхней картинки до About Us*/
   color: #ff0157;
   font-weight: 600;
 }
+.contact
+{
+  background: url(img/bg3.jpg);
+  background-size: cover; /*картинка фона по размеру экрана*/
+}
 

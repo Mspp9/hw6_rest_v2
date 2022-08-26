@@ -246,3 +246,7 @@ section /*отступ от верхней картинки до About Us*/
   font-weight: 400;
   color:#111;
 }
+.testimonials
+{
+  background: url(img/bg2.jpg)
+}

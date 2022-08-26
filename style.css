@@ -315,4 +315,19 @@ section /*отступ от верхней картинки до About Us*/
   background: url(img/bg3.jpg);
   background-size: cover; /*картинка фона по размеру экрана*/
 }
+.contactForm /*форма в send message*/
+{
+  padding: 75px 50px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.1); /*рамка вокруг формы sand message*/
+  max-width: 500px;
+  margin-top: 50px;
+}
+.contactForm h3
+{
+  color: #111;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
 

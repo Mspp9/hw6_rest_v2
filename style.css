@@ -378,3 +378,15 @@ color: #333;
   font-weight: 500;
   text-decoration: none;
 }
+
+@media (max-width: 991px) /*видимо работа с растягиванием картинки, при увеличении и уменьшении страницы*/
+{
+  header /*работа с меню сайта*/
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+  }
+}

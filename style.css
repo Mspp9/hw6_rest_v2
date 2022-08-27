@@ -330,4 +330,36 @@ section /*отступ от верхней картинки до About Us*/
   margin-bottom: 20px;
   font-weight: 500;
 }
-
+.contactForm .inputBox 
+{
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contactForm .inputBox input
+.contactForm .inputBox textarea /*рамка вокруг заполнения полей*/
+{
+width: 100%;
+border: 1px solid #555;
+padding: 10px;
+color:#111;
+outline: none;
+font-size: 16px;
+font-weight: 300;
+resize: none; /*не дает рамки растягиваться?*/
+}
+.contactForm .inputBox input[type="submit"] /*работа с кнопкой Send*/
+{
+ font-size: 1em; 
+ color:#fff;
+ background: #ff0157;
+ display: inline-block;
+ text-transform: uppercase;
+ text-decoration: none;
+ letter-spacing: 2px;
+ transition:0.5s;
+ max-width: 100px;
+ font-weight: 500;
+ border:none;
+ cursor: pointer;
+}

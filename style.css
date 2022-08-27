@@ -381,12 +381,24 @@ color: #333;
 
 @media (max-width: 991px) /*видимо работа с растягиванием картинки, при увеличении и уменьшении страницы*/
 {
-  header /*работа с меню сайта*/
-  {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px 20px;
-  }
+  header,
+  header.sticky /*работа с меню сайта*/
+ {
+padding: 10px 20px;
+ }
+ header .navigation
+ {
+  display:none; /*скрыли меню*/
+ }
+ .menuToggle /*справа картинка с белыми линиями*/
+ {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url(img/menu.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+ }
 }

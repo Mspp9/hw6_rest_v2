@@ -402,3 +402,10 @@ padding: 10px 20px;
   cursor: pointer;
  }
 }
+.menuToggle.active
+{
+    background: url(img/close.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }

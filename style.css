@@ -409,3 +409,8 @@ padding: 10px 20px;
     background-repeat: no-repeat;
     background-position: center;
   }
+  header.sticky .menuToggle /*сохраняет значек меню и крестика при скроле*/
+  /*function toggleMenu() { добавляем функции при переключении*/
+  {
+    filter: invert(1);
+  }
